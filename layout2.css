@@ -1,0 +1,28 @@
+@import url("lips/bootstrap-reboot.min.css");
+.nav-wrapper{
+	padding-top: 92px;
+	width: 1440px;
+    background-color: #B9E3F1;
+    margin-left:auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline; 	 
+
+}
+.nav{
+
+}
+.nav__item{ 
+
+	font-family: Avenir;
+	clip: #aaaaaa;
+	font-style: 15px;
+	font-weight: 500;
+	text-transform: uppercase; 
+	letter-spacing: 0.3px;
+	margin-right: 70px;
+}
+.nav:hover{
+	background: #6495ED; /* Цвет фона под ссылкой */ 
+	}
