@@ -1,0 +1,12 @@
+@import url(libs/bootstrap-reboot.min.css);
+h1 { text-decoration: underline; }
+
+.nav-wrapper { padding-top: 92px; /*width: 1440px;*/ margin-left: auto; margin-right: auto; display: flex; justify-content: space-between; align-items: baseline; }
+
+.nav__item { font-family: Avenir; color: #aaaaaa; font-style: 15px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.3px; margin-right: 70px; text-decoration: none; }
+
+.nav__item:last-child { margin-right: 0; }
+
+.nav__item--active, .nav__item:focus, .nav__item:active { color: #111111; text-decoration: none; font-weight: 400px; }
+
+.nav__item:hover { color: #000; }
